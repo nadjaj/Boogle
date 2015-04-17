@@ -1,0 +1,156 @@
+* {margin: 0;}
+
+html, body {
+  height: 100%;
+  font-family: arial, sans-serif;
+  font-size: 10pt;
+}
+
+#page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -40px;
+}
+
+#page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.site-footer, #page-wrap:after {height: 40px;}
+
+.site-footer {
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+  min-width: 980px;
+  color: #666;
+}
+
+/* header */
+
+header{
+    text-align: right;
+	font-size: 13px;
+	min-width: 346px;
+	padding: 20px;
+	height: 40px;
+	position: absolute;
+	right: 0;
+}
+
+header a{
+	color: #404040;
+	text-decoration: none;
+	line-height: 24px;
+	padding-left: 15px;
+}
+
+header a:hover{
+	text-decoration: underline;
+}
+
+
+/* logo */
+
+#logo {
+	width: 310px;
+	margin: 0 auto;
+	padding-top: 112px;
+	}
+	
+#logo img{
+	width: 100%;
+	height: auto;
+}
+
+/* searchform */ 
+
+#searchform {
+	padding-left: 173px;
+	padding-right: 173px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#search{
+	display: block;
+	font-size: 13px;
+	margin-top: 20px;	
+}
+
+input {
+	width: 484px;
+	height: 28px;
+	padding: 0px 9px;	
+}
+
+input[type=text], textarea {
+	outline: none;
+	border: 1px solid #d9d9d9;
+	border-top-color: #c0c0c0;
+}
+
+input[type=text]:focus, textarea:focus {
+	border: 1px solid #4d90fe;
+}
+
+input:hover {
+	border-color: #c0c0c0;
+}
+button {
+	height: 29px;
+	line-height: 27px;
+	border-radius: 2px;
+	border: 1px solid #dcdcdc;
+	color: #444;
+	cursor: default;
+	font-size: 11px;
+	font-weight: bold;
+	min-width: 54px;
+	margin: 15px 6px;
+	padding: 0 8px;
+	text-align: center;
+	background-color: #f5f5f5;
+	font-family: arial, sans-serif;
+}
+button:hover{
+	background-color: #f1f1f1;
+	border: 1px solid #c0c0c0;
+	border-bottom: 2px solid #dcdcdc;
+}
+
+/* jezik */ 
+
+#jezik {
+	margin-top: 12px;
+	text-align: center;
+	line-height: 28px;
+	color: #222222;
+}
+
+#jezik a {
+	text-decoration: none;
+}
+
+#jezik a:hover {
+	text-decoration: underline;
+}
+
+/* footer */
+
+footer li {
+    display: inline-block;
+	list-style: none;
+	margin: 2px 10px 0;
+}
+
+.left {float: left;}
+.right {float: right;}
+
+footer a {
+	color: #666;
+	text-decoration: none;
+}
+
+footer a:hover{text-decoration: underline;}
